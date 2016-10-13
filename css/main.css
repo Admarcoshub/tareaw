@@ -1,0 +1,196 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body  {
+    font-family: sans-serif;
+ }
+
+header {
+	background-image: url("../images/home4.jpg");
+	background-size: cover;
+	width:100%;
+	height:900px;
+	position:relative;
+}
+
+.row-in {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.negro {
+	width:100%;
+	height: 900px;
+	background: #000;
+	opacity:0.4;
+	position: absolute;
+}
+
+.logo { 
+	width: 50%;
+	float: left;
+}
+
+.subtitle {
+	position: absolute;
+	color: #fff;
+	padding-top: 380px;
+	padding-left: 600px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.title {
+	position: absolute;
+	color: #fff;
+	padding-top: 300px;
+	padding-left: 500px;
+	font-size: 4em;
+	text-align: center;
+}
+
+.titulo {
+	margin-bottom: 80px;
+	padding-left:100px;
+	margin-bottom: 80px;
+}
+
+.titulo::after {
+	content: "";
+	width: 100px;
+	height: 1px;
+	background: #000;
+}
+
+.foto img {
+	width:80%;
+	height:900px;
+	padding: 100px;
+	overflow: hidden;
+}
+
+.text {
+	padding:80px 50px 50px 0px;
+	background: #fff;
+}
+
+.proveer {
+	width:100%;
+	height: 140px;
+	padding-left: 100px;
+}
+
+.vector {
+	width:20%;
+	float:left;
+}
+
+.info-vector {
+	width:80%;
+	float:right;
+}
+
+.loguito {
+	padding-top:10px;
+	max-width:100%; 
+}
+
+.icon-bar {
+	color:#fff;
+}
+
+.welco {
+	background-image: url("../images/bg3.jpg");
+	width:100vh;
+	height: 400px;
+	background-size:cover;
+	position: relative;
+}
+
+.masnegro {
+	background: #000;
+	width:100%;
+	height: 800px;
+	position: absolute;	
+   background: rgba(0, 0, 0, 0.5);
+}
+
+
+.titulo-n {
+	color:#fff;
+	position:absolute;
+	padding: 200px 100px 100px 100px;
+	opacity: 1;
+}
+
+
+.video-n {
+	color:#fff;
+	position:absolute;
+	padding: 200px 100px 100px 100px;
+}
+
+.meet {
+	clear:both;
+}
+
+.titulo-m {
+	color:#000;
+	clear:both;
+	padding: 50px 0px;
+	opacity: 1;
+}
+
+.people {
+	width:100%;
+	height:300px;
+}
+
+.people-info {
+	padding: 80px 10px 20px 10px;
+	height:300px;	
+}
+
+.col-lg-3 {
+	padding: 0px;
+	margin:0px;
+}
+
+i {
+	margin-left:15px;
+}
+
+@media only screen and (max-width: 500px) {
+    .welco {
+       display:none;
+    }
+
+
+    .masnegro {
+    	display:none;
+       }
+
+    .foto {
+    	display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
